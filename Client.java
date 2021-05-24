@@ -33,7 +33,7 @@ public class Client {
                 userName = chatFrame.getLoginPanel().getNicknameField().getText();
                 if (userName.isEmpty()) {
                     JOptionPane.showMessageDialog(null,
-                            "Couldn't join the chat, empty username",
+                            "Debes especificar un nombre de usuario",
                             "Empty username",
                             JOptionPane.ERROR_MESSAGE);
                 } else {
@@ -55,7 +55,7 @@ public class Client {
                 String message = chatFrame.getChatPanel().getMessageField().getText();
                 if (message.isEmpty()) {
                     JOptionPane.showMessageDialog(null,
-                            "You can't send an empty message!",
+                            "No puedes enviar un mensaje vacío!",
                             "Empty Message",
                             JOptionPane.ERROR_MESSAGE);
 
